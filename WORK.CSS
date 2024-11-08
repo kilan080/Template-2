@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto", sans-serif;
+    background-color: #f1f1f1;
+}
+.container-1 {
+    max-width: 400px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 6px 12px 17px 3px #333;
+}
+
+.profile-image {
+    position: relative;
+}
+
+.profile-image img {
+    position: relative;
+}
+
+.profile-image h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 2%;
+    font-size: 20px;
+
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.prof-dt i {
+    color: #009688;
+}
+
+.prof-dt {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.prof-dt p {
+    margin: 0px;
+    font-size: 13px;
+}
+.prof-dt h4 {
+    margin: 0px;
+    /* font-size: 13px; */
+}
+.border1{
+    border: none;
+    background-color: #009688;
+    color: #fff;
+    height: 25px;
+    width: 72%;
+    /* margin-left: 128px; */
+    position: absolute;
+    z-index: 1;
+    left: -2px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border2{
+    border: none;
+    background-color: brown;
+    color: #fff;
+    height: 25px;
+    width: 55%;
+    position: absolute;
+    left: 10em;
+    border-radius: 15px;
+    color: #fff;
+}
+.skill {
+    margin-bottom: 50px;
+}
+.language {
+    padding-bottom: 35px;
+}
+.adobe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cont {
+    position: relative;
+}
+.english {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.general-container {
+    display: flex;
+    max-width: 1300px;
+    margin-inline: auto;
+    justify-content: space-between;
+
+}
+.expan {
+    /* max-width: 100%; */
+    padding-inline: 20px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    opacity: 0.60;
+}
+.expan p {
+    margin: 0px;
+    font-size: 25px;
+    /* color: ; */
+}
+.expan i {
+    color: #009688;
+}
+.end h3 {
+    padding-inline: 20px;
+    font-size: 18px;
+    margin: 0px;
+}
+.front {
+    padding-inline: 20px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #009688;
+}
+
+.front p {
+    font-size: 12px;
+    
+}
+.lorem {
+    padding-left: 20px;
+}
+.lorem hr {
+    margin-top: 20px;
+}
+.Web {
+    padding-left: 20px;
+}
+.Web h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+.Dev {
+    color: #009688;
+    display: flex;
+    padding-left: 20px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.lorem2{
+    padding-left: 20px;
+}
+.lorem2 hr {
+    margin-top: 20px;
+}
+.graphic  {
+    padding-left: 20px;
+}
+.graphic h3 {
+    font-size: 18px;
+    margin: 0px;
+    
+}
+.designer {
+    color: #009688;
+    display: flex;
+    padding-inline: 20px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.lorem3 p {
+    padding-left: 20px;
+}
+.for-A {
+    /* height: 400px; */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 6px 12px 17px 3px #333;
+    border-radius: 5px;
+}
+.front span {
+    background-color: #009688;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+.for-B {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 6px 12px 17px 3px #333;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+.master p {
+    margin: 0px;
+}
+.london p {
+    margin: 0px;
+}
+.educa {
+    display: flex;
+    color: #009688;
+    align-items: center;
+    gap: 10px;
+}
+.forver {
+    display: flex;
+    color: #009688;
+    align-items: center;
+    gap: 10px;
+
+}
+.master {
+    display: flex;
+    color: #009688;
+    align-items: center;
+    gap: 10px;
+}
+
+.coding {
+    display: flex;
+    color: #009688;
+    align-items: center;
+    gap: 10px;
+}
+.container-3 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #009688;
+    height: 120px;
+    margin-top: 20px;
+    color: #fff;
+    margin-inline: auto;
+}
+h3,h4 {
+    opacity: 0.60;
+}
+@media screen and (max-width:900px){
+    .general-container {
+        flex-direction: column;
+    }
+    
+    .container-1 {
+        max-width: 100%;
+
+    }
+    .container-3 {
+        display: none;
+    }
+}
